@@ -1,0 +1,24 @@
+{
+  "name": "chess_clock_jenga",
+  "version": "1.0.0",
+  "description": "A timer for chess clock jenga",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichalKononenko/ChessClockJenga.git"
+  },
+  "keywords": [
+    "timer",
+    "chess",
+    "clock"
+  ],
+  "author": "Michal Kononenko",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/MichalKononenko/ChessClockJenga/issues"
+  },
+  "homepage": "https://github.com/MichalKononenko/ChessClockJenga#readme"
+}
