@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A timer for chess clock jenga",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MichalKononenko/ChessClockJenga.git"
@@ -20,5 +17,26 @@
   "bugs": {
     "url": "https://github.com/MichalKononenko/ChessClockJenga/issues"
   },
-  "homepage": "https://github.com/MichalKononenko/ChessClockJenga#readme"
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js",
+    "watch_test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "homepage": "https://github.com/MichalKononenko/ChessClockJenga#readme",
+  "devDependencies": {
+    "react-native-scripts": "1.8.1",
+    "jest-expo": "23.0.0",
+    "react-test-renderer": "16.0.0"
+  },
+  "dependencies": {
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
 }
